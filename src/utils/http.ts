@@ -1,4 +1,4 @@
-import 'cross-fetch/polyfill';
+import fetch from 'cross-fetch';
 import {IDictionary} from '../common/models';
 
 /** Utility method for sending a GET request to the specified URL */
