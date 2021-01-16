@@ -22,8 +22,7 @@
   "dependencies": {
     "bs58": "^4.0.1",
     "cross-fetch": "^3.0.6",
-    "immutable": "^3.8.2",
-    "loadjs": "^3.6.1"
+    "immutable": "^3.8.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
