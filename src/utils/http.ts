@@ -1,7 +1,6 @@
 require('es6-promise').polyfill();
 import 'cross-fetch/polyfill';
 import {IDictionary} from '../common/models';
-import * as Immutable from 'immutable';
 
 /** Utility method for sending a GET request to the specified URL */
 export function sendPostJSON<T>(url: string, body: IDictionary<any>, extraHeaders?: IDictionary<string>): Promise<T> {
@@ -40,9 +39,7 @@ export function sendGetJSON<T>(url: string, extraHeaders?: IDictionary<string>):
 function getJSONRequestHeaders(extraHeaders?: IDictionary<string>): IDictionary<string> {
   let requestHeaders: IDictionary<string> = {Accept: 'application/json', 'Content-Type': 'application/json'};
   if (extraHeaders) {
-    requestHeaders = Immutable.Map(extraHeaders)
-      .merge(Immutable.Map(requestHeaders))
-      .toJS();
+    requestHeaders = {...requestHeaders, ...extraHeaders}
   }
   return requestHeaders;
 }

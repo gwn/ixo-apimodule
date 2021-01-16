@@ -21,8 +21,7 @@
   "homepage": "https://github.com/ixofoundation/ixo-apimodule#readme",
   "dependencies": {
     "bs58": "^4.0.1",
-    "cross-fetch": "^3.0.6",
-    "immutable": "^3.8.2"
+    "cross-fetch": "^3.0.6"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
