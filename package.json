@@ -1,7 +1,7 @@
 {
   "name": "@ixo/ixo-apimodule",
   "version": "1.0.5",
-  "description": "This is a node module that defines the functions that can be performed by the ixo protocol.",
+  "description": "Client for the Ixo Blocksync & Ixo Cellnode",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
