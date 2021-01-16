@@ -67,9 +67,6 @@ typings/
 .idea/**
 .vscode/**
 
-# Dist folder
-dist/**
-
 scratch.json
 
 .DS_Store
