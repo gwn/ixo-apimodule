@@ -1,4 +1,3 @@
-require('es6-promise');
 import Config from './config';
 import {sendGetJSON} from './utils/http';
 

@@ -4,8 +4,6 @@ import {sendGetJSON, sendPostJSON} from './utils/http';
 
 const base58 = require('bs58')
 
-require('es6-promise');
-
 class User {
   config: Config;
 

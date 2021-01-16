@@ -1,4 +1,3 @@
-require('es6-promise');
 import {Signature} from './common/models';
 import {constructJsonSignRequest} from './common/util';
 import {sendPostJSON} from './utils/http';
