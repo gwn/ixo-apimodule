@@ -1,5 +1,4 @@
 import {IxoCredentialProvider, Signature} from "../../src/common/models";
-import {Promise} from 'es6-promise';
 import {generateJsonPayload} from "../../src/common/util";
 
 const ethUtil = require('ethereumjs-util');

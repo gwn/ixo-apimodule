@@ -1,4 +1,3 @@
-require('es6-promise').polyfill();
 import 'cross-fetch/polyfill';
 import {IDictionary} from '../common/models';
 
